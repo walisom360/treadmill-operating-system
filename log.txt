@@ -1,44 +1,1147 @@
-2025-12-10 19:17:43 [INFO] Config carregada: tempo_verif=1000 ms, ativacao=00:00, desativacao=23:59, max_tentativas=5
-2025-12-10 19:17:43 [INFO] Linha de producao inicializada
-2025-12-10 19:17:43 [INFO] [PRODUTOR] Criou bolacha #1 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:43 [INFO] [FORNO] Recebeu bolacha #1 (CRUA) -> assando...
-2025-12-10 19:17:43 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:43 [INFO] [MONITOR] rodando=1 | forno=0, embalagem=0, caixa=0 | criadas=1, finalizadas=0
-2025-12-10 19:17:44 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:44 [INFO] [MONITOR] rodando=1 | forno=0, embalagem=0, caixa=0 | criadas=1, finalizadas=0
-2025-12-10 19:17:44 [INFO] [PRODUTOR] Criou bolacha #2 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:45 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:45 [INFO] [MONITOR] rodando=1 | forno=1, embalagem=0, caixa=0 | criadas=2, finalizadas=0
-2025-12-10 19:17:45 [INFO] [FORNO] Bolacha #1 esta ASSADA e foi para Esteira Embalagem
-2025-12-10 19:17:45 [INFO] [FORNO] Recebeu bolacha #2 (CRUA) -> assando...
-2025-12-10 19:17:45 [INFO] [EMBALAGEM] Recebeu bolacha #1 (ASSADA) -> embalando...
-2025-12-10 19:17:45 [INFO] [PRODUTOR] Criou bolacha #3 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:46 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:46 [INFO] [MONITOR] rodando=1 | forno=1, embalagem=0, caixa=0 | criadas=3, finalizadas=0
-2025-12-10 19:17:46 [INFO] [EMBALAGEM] Bolacha #1 esta EMBALADA e foi para Esteira Caixa
-2025-12-10 19:17:46 [INFO] [CAIXA] Bolacha #1 FINALIZADA e colocada na caixa
-2025-12-10 19:17:46 [INFO] [PRODUTOR] Criou bolacha #4 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:47 [INFO] [FORNO] Bolacha #2 esta ASSADA e foi para Esteira Embalagem
-2025-12-10 19:17:47 [INFO] [FORNO] Recebeu bolacha #3 (CRUA) -> assando...
-2025-12-10 19:17:47 [INFO] [EMBALAGEM] Recebeu bolacha #2 (ASSADA) -> embalando...
-2025-12-10 19:17:47 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:47 [INFO] [MONITOR] rodando=1 | forno=1, embalagem=0, caixa=0 | criadas=4, finalizadas=1
-2025-12-10 19:17:47 [INFO] [PRODUTOR] Criou bolacha #5 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:48 [INFO] [EMBALAGEM] Bolacha #2 esta EMBALADA e foi para Esteira Caixa
-2025-12-10 19:17:48 [INFO] [CAIXA] Bolacha #2 FINALIZADA e colocada na caixa
-2025-12-10 19:17:48 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:48 [INFO] [MONITOR] rodando=1 | forno=2, embalagem=0, caixa=0 | criadas=5, finalizadas=2
-2025-12-10 19:17:48 [INFO] [PRODUTOR] Criou bolacha #6 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:49 [INFO] [FORNO] Bolacha #3 esta ASSADA e foi para Esteira Embalagem
-2025-12-10 19:17:49 [INFO] [FORNO] Recebeu bolacha #4 (CRUA) -> assando...
-2025-12-10 19:17:49 [INFO] [EMBALAGEM] Recebeu bolacha #3 (ASSADA) -> embalando...
-2025-12-10 19:17:49 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:49 [INFO] [MONITOR] rodando=1 | forno=2, embalagem=0, caixa=0 | criadas=6, finalizadas=2
-2025-12-10 19:17:49 [INFO] [PRODUTOR] Criou bolacha #7 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:50 [DEBUG] [MONITOR] Hora atual 19:17, deveria_rodar=1
-2025-12-10 19:17:50 [INFO] [MONITOR] rodando=1 | forno=3, embalagem=0, caixa=1 | criadas=7, finalizadas=2
-2025-12-10 19:17:50 [INFO] [EMBALAGEM] Bolacha #3 esta EMBALADA e foi para Esteira Caixa
-2025-12-10 19:17:50 [INFO] [CAIXA] Bolacha #3 FINALIZADA e colocada na caixa
-2025-12-10 19:17:50 [INFO] [PRODUTOR] Criou bolacha #8 (CRUA) e colocou na Esteira Forno
-2025-12-10 19:17:51 [INFO] Comando 'q' - encerrando sistema pelo usuario
-2025-12-10 19:17:51 [INFO] Sistema encerrado.
+2025-12-11 09:59:24 [INFO] Config carregada: tempo_verif=1000 ms, ativacao=00:00, desativacao=23:59, max_tentativas=5
+2025-12-11 09:59:24 [INFO] Linha de producao inicializada
+2025-12-11 09:59:24 [INFO] [PRODUTOR] Criou bolacha #1 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:24 [INFO] [FORNO] Recebeu bolacha #1 (CRUA) -> assando...
+2025-12-11 09:59:24 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:24 [INFO] [MONITOR] rodando=1 | forno=0, embalagem=0, caixa=0 | criadas=1, finalizadas=0
+2025-12-11 09:59:25 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:25 [INFO] [MONITOR] rodando=1 | forno=0, embalagem=0, caixa=0 | criadas=1, finalizadas=0
+2025-12-11 09:59:25 [INFO] [PRODUTOR] Criou bolacha #2 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:26 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:26 [INFO] [MONITOR] rodando=1 | forno=1, embalagem=0, caixa=0 | criadas=2, finalizadas=0
+2025-12-11 09:59:26 [INFO] [PRODUTOR] Criou bolacha #3 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:26 [INFO] [FORNO] Bolacha #1 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:26 [INFO] [FORNO] Recebeu bolacha #2 (CRUA) -> assando...
+2025-12-11 09:59:26 [INFO] [EMBALAGEM] Recebeu bolacha #1 (ASSADA) -> embalando...
+2025-12-11 09:59:27 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:27 [INFO] [MONITOR] rodando=1 | forno=1, embalagem=0, caixa=0 | criadas=3, finalizadas=0
+2025-12-11 09:59:27 [INFO] [PRODUTOR] Criou bolacha #4 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:27 [INFO] [EMBALAGEM] Bolacha #1 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:27 [INFO] [CAIXA] Bolacha #1 FINALIZADA e colocada na caixa
+2025-12-11 09:59:28 [INFO] [PRODUTOR] Criou bolacha #5 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:28 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:28 [INFO] [MONITOR] rodando=1 | forno=3, embalagem=0, caixa=0 | criadas=5, finalizadas=1
+2025-12-11 09:59:28 [INFO] [FORNO] Bolacha #2 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:28 [INFO] [FORNO] Recebeu bolacha #3 (CRUA) -> assando...
+2025-12-11 09:59:28 [INFO] [EMBALAGEM] Recebeu bolacha #2 (ASSADA) -> embalando...
+2025-12-11 09:59:26 [INFO] [PRODUTOR] Criou bolacha #6 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:26 [INFO] [EMBALAGEM] Bolacha #2 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:26 [INFO] [CAIXA] Bolacha #2 FINALIZADA e colocada na caixa
+2025-12-11 09:59:26 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:26 [INFO] [MONITOR] rodando=1 | forno=3, embalagem=0, caixa=0 | criadas=6, finalizadas=2
+2025-12-11 09:59:27 [INFO] [PRODUTOR] Criou bolacha #7 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:27 [INFO] [FORNO] Bolacha #3 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:27 [INFO] [FORNO] Recebeu bolacha #4 (CRUA) -> assando...
+2025-12-11 09:59:27 [INFO] [EMBALAGEM] Recebeu bolacha #3 (ASSADA) -> embalando...
+2025-12-11 09:59:27 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:27 [INFO] [MONITOR] rodando=1 | forno=3, embalagem=0, caixa=0 | criadas=7, finalizadas=2
+2025-12-11 09:59:28 [INFO] [PRODUTOR] Criou bolacha #8 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:28 [INFO] [EMBALAGEM] Bolacha #3 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:28 [INFO] [CAIXA] Bolacha #3 FINALIZADA e colocada na caixa
+2025-12-11 09:59:28 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:28 [INFO] [MONITOR] rodando=1 | forno=4, embalagem=0, caixa=0 | criadas=8, finalizadas=3
+2025-12-11 09:59:29 [INFO] [FORNO] Bolacha #4 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:29 [INFO] [FORNO] Recebeu bolacha #5 (CRUA) -> assando...
+2025-12-11 09:59:29 [INFO] [EMBALAGEM] Recebeu bolacha #4 (ASSADA) -> embalando...
+2025-12-11 09:59:29 [INFO] [PRODUTOR] Criou bolacha #9 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:29 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:29 [INFO] [MONITOR] rodando=1 | forno=4, embalagem=0, caixa=0 | criadas=9, finalizadas=3
+2025-12-11 09:59:30 [INFO] [EMBALAGEM] Bolacha #4 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:30 [INFO] [CAIXA] Bolacha #4 FINALIZADA e colocada na caixa
+2025-12-11 09:59:30 [INFO] [PRODUTOR] Criou bolacha #10 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:30 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:30 [INFO] [MONITOR] rodando=1 | forno=5, embalagem=0, caixa=0 | criadas=10, finalizadas=4
+2025-12-11 09:59:31 [INFO] [EMBALAGEM] Recebeu bolacha #5 (ASSADA) -> embalando...
+2025-12-11 09:59:31 [INFO] [FORNO] Bolacha #5 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:31 [INFO] [FORNO] Recebeu bolacha #6 (CRUA) -> assando...
+2025-12-11 09:59:31 [INFO] [PRODUTOR] Criou bolacha #11 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:31 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:31 [INFO] [MONITOR] rodando=1 | forno=5, embalagem=0, caixa=0 | criadas=11, finalizadas=4
+2025-12-11 09:59:32 [INFO] [EMBALAGEM] Bolacha #5 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:32 [INFO] [CAIXA] Bolacha #5 FINALIZADA e colocada na caixa
+2025-12-11 09:59:32 [INFO] [PRODUTOR] Criou bolacha #12 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:32 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:32 [INFO] [MONITOR] rodando=1 | forno=6, embalagem=0, caixa=0 | criadas=12, finalizadas=5
+2025-12-11 09:59:33 [INFO] [FORNO] Bolacha #6 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:33 [INFO] [FORNO] Recebeu bolacha #7 (CRUA) -> assando...
+2025-12-11 09:59:33 [INFO] [EMBALAGEM] Recebeu bolacha #6 (ASSADA) -> embalando...
+2025-12-11 09:59:33 [INFO] [PRODUTOR] Criou bolacha #13 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:33 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:33 [INFO] [MONITOR] rodando=1 | forno=6, embalagem=0, caixa=0 | criadas=13, finalizadas=5
+2025-12-11 09:59:34 [INFO] [EMBALAGEM] Bolacha #6 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:34 [INFO] [CAIXA] Bolacha #6 FINALIZADA e colocada na caixa
+2025-12-11 09:59:34 [INFO] [PRODUTOR] Criou bolacha #14 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:34 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:34 [INFO] [MONITOR] rodando=1 | forno=7, embalagem=0, caixa=0 | criadas=14, finalizadas=6
+2025-12-11 09:59:35 [INFO] [FORNO] Bolacha #7 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:35 [INFO] [FORNO] Recebeu bolacha #8 (CRUA) -> assando...
+2025-12-11 09:59:35 [INFO] [EMBALAGEM] Recebeu bolacha #7 (ASSADA) -> embalando...
+2025-12-11 09:59:35 [INFO] [PRODUTOR] Criou bolacha #15 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:35 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:35 [INFO] [MONITOR] rodando=1 | forno=7, embalagem=0, caixa=0 | criadas=15, finalizadas=6
+2025-12-11 09:59:36 [INFO] [EMBALAGEM] Bolacha #7 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:36 [INFO] [CAIXA] Bolacha #7 FINALIZADA e colocada na caixa
+2025-12-11 09:59:36 [INFO] [PRODUTOR] Criou bolacha #16 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:36 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:36 [INFO] [MONITOR] rodando=1 | forno=8, embalagem=0, caixa=0 | criadas=16, finalizadas=7
+2025-12-11 09:59:37 [INFO] [FORNO] Bolacha #8 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:37 [INFO] [FORNO] Recebeu bolacha #9 (CRUA) -> assando...
+2025-12-11 09:59:37 [INFO] [EMBALAGEM] Recebeu bolacha #8 (ASSADA) -> embalando...
+2025-12-11 09:59:37 [INFO] [PRODUTOR] Criou bolacha #17 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:38 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:38 [INFO] [MONITOR] rodando=1 | forno=8, embalagem=0, caixa=0 | criadas=17, finalizadas=7
+2025-12-11 09:59:38 [INFO] [EMBALAGEM] Bolacha #8 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:38 [INFO] [CAIXA] Bolacha #8 FINALIZADA e colocada na caixa
+2025-12-11 09:59:38 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:38 [INFO] [MONITOR] rodando=1 | forno=9, embalagem=0, caixa=0 | criadas=18, finalizadas=8
+2025-12-11 09:59:38 [INFO] [PRODUTOR] Criou bolacha #18 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:39 [INFO] [FORNO] Bolacha #9 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:39 [INFO] [FORNO] Recebeu bolacha #10 (CRUA) -> assando...
+2025-12-11 09:59:39 [INFO] [EMBALAGEM] Recebeu bolacha #9 (ASSADA) -> embalando...
+2025-12-11 09:59:39 [INFO] [PRODUTOR] Criou bolacha #19 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:40 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:40 [INFO] [MONITOR] rodando=1 | forno=9, embalagem=0, caixa=0 | criadas=19, finalizadas=8
+2025-12-11 09:59:40 [INFO] Comando 's' - mostrar estado
+2025-12-11 09:59:40 [INFO] [EMBALAGEM] Bolacha #9 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:40 [INFO] [CAIXA] Bolacha #9 FINALIZADA e colocada na caixa
+2025-12-11 09:59:41 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:41 [INFO] [MONITOR] rodando=1 | forno=9, embalagem=0, caixa=0 | criadas=19, finalizadas=9
+2025-12-11 09:59:41 [INFO] [PRODUTOR] Criou bolacha #20 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:41 [INFO] [FORNO] Bolacha #10 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:41 [INFO] [FORNO] Recebeu bolacha #11 (CRUA) -> assando...
+2025-12-11 09:59:41 [INFO] [EMBALAGEM] Recebeu bolacha #10 (ASSADA) -> embalando...
+2025-12-11 09:59:42 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:42 [INFO] [MONITOR] rodando=1 | forno=9, embalagem=0, caixa=0 | criadas=20, finalizadas=9
+2025-12-11 09:59:42 [INFO] [PRODUTOR] Criou bolacha #21 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:42 [INFO] [EMBALAGEM] Bolacha #10 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:42 [INFO] [CAIXA] Bolacha #10 FINALIZADA e colocada na caixa
+2025-12-11 09:59:43 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:43 [INFO] [MONITOR] rodando=1 | forno=10, embalagem=0, caixa=0 | criadas=21, finalizadas=10
+2025-12-11 09:59:43 [INFO] [PRODUTOR] Criou bolacha #22 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:43 [INFO] [FORNO] Bolacha #11 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:43 [INFO] [FORNO] Recebeu bolacha #12 (CRUA) -> assando...
+2025-12-11 09:59:43 [INFO] [EMBALAGEM] Recebeu bolacha #11 (ASSADA) -> embalando...
+2025-12-11 09:59:44 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:44 [INFO] [MONITOR] rodando=1 | forno=10, embalagem=0, caixa=0 | criadas=22, finalizadas=10
+2025-12-11 09:59:44 [INFO] [PRODUTOR] Criou bolacha #23 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:44 [INFO] [EMBALAGEM] Bolacha #11 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:44 [INFO] [CAIXA] Bolacha #11 FINALIZADA e colocada na caixa
+2025-12-11 09:59:45 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:45 [INFO] [MONITOR] rodando=1 | forno=11, embalagem=0, caixa=0 | criadas=23, finalizadas=11
+2025-12-11 09:59:45 [INFO] [PRODUTOR] Criou bolacha #24 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:45 [INFO] [FORNO] Bolacha #12 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:45 [INFO] [FORNO] Recebeu bolacha #13 (CRUA) -> assando...
+2025-12-11 09:59:45 [INFO] [EMBALAGEM] Recebeu bolacha #12 (ASSADA) -> embalando...
+2025-12-11 09:59:46 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:46 [INFO] [MONITOR] rodando=1 | forno=11, embalagem=0, caixa=0 | criadas=24, finalizadas=11
+2025-12-11 09:59:46 [INFO] [PRODUTOR] Criou bolacha #25 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:46 [INFO] [EMBALAGEM] Bolacha #12 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:46 [INFO] [CAIXA] Bolacha #12 FINALIZADA e colocada na caixa
+2025-12-11 09:59:47 [INFO] [PRODUTOR] Criou bolacha #26 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:47 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:47 [INFO] [MONITOR] rodando=1 | forno=13, embalagem=0, caixa=0 | criadas=26, finalizadas=12
+2025-12-11 09:59:47 [INFO] [FORNO] Bolacha #13 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:47 [INFO] [FORNO] Recebeu bolacha #14 (CRUA) -> assando...
+2025-12-11 09:59:47 [INFO] [EMBALAGEM] Recebeu bolacha #13 (ASSADA) -> embalando...
+2025-12-11 09:59:48 [INFO] [PRODUTOR] Criou bolacha #27 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:48 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:48 [INFO] [MONITOR] rodando=1 | forno=13, embalagem=0, caixa=0 | criadas=27, finalizadas=12
+2025-12-11 09:59:48 [INFO] Comando 'p' - linha pausada pelo usuario
+2025-12-11 09:59:48 [INFO] [EMBALAGEM] Bolacha #13 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:48 [INFO] [CAIXA] Bolacha #13 FINALIZADA e colocada na caixa
+2025-12-11 09:59:50 [INFO] [FORNO] Bolacha #14 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:57 [INFO] Comando 'r' - linha retomada pelo usuario
+2025-12-11 09:59:58 [INFO] [PRODUTOR] Criou bolacha #28 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:58 [INFO] [EMBALAGEM] Recebeu bolacha #14 (ASSADA) -> embalando...
+2025-12-11 09:59:58 [INFO] [FORNO] Recebeu bolacha #15 (CRUA) -> assando...
+2025-12-11 09:59:58 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:58 [INFO] [MONITOR] rodando=1 | forno=13, embalagem=0, caixa=0 | criadas=28, finalizadas=13
+2025-12-11 09:59:56 [INFO] [PRODUTOR] Criou bolacha #29 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:56 [INFO] [EMBALAGEM] Bolacha #14 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:56 [INFO] [CAIXA] Bolacha #14 FINALIZADA e colocada na caixa
+2025-12-11 09:59:56 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:56 [INFO] [MONITOR] rodando=1 | forno=14, embalagem=0, caixa=0 | criadas=29, finalizadas=14
+2025-12-11 09:59:57 [INFO] [PRODUTOR] Criou bolacha #30 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:57 [INFO] [FORNO] Bolacha #15 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:57 [INFO] [FORNO] Recebeu bolacha #16 (CRUA) -> assando...
+2025-12-11 09:59:57 [INFO] [EMBALAGEM] Recebeu bolacha #15 (ASSADA) -> embalando...
+2025-12-11 09:59:57 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:57 [INFO] [MONITOR] rodando=1 | forno=14, embalagem=0, caixa=0 | criadas=30, finalizadas=14
+2025-12-11 09:59:58 [INFO] [EMBALAGEM] Bolacha #15 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 09:59:58 [INFO] [CAIXA] Bolacha #15 FINALIZADA e colocada na caixa
+2025-12-11 09:59:58 [INFO] [PRODUTOR] Criou bolacha #31 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:58 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:58 [INFO] [MONITOR] rodando=1 | forno=15, embalagem=0, caixa=0 | criadas=31, finalizadas=15
+2025-12-11 09:59:59 [INFO] [FORNO] Bolacha #16 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 09:59:59 [INFO] [FORNO] Recebeu bolacha #17 (CRUA) -> assando...
+2025-12-11 09:59:59 [INFO] [EMBALAGEM] Recebeu bolacha #16 (ASSADA) -> embalando...
+2025-12-11 09:59:59 [INFO] [PRODUTOR] Criou bolacha #32 (CRUA) e colocou na Esteira Forno
+2025-12-11 09:59:59 [DEBUG] [MONITOR] Hora atual 09:59, janela_ativa=1
+2025-12-11 09:59:59 [INFO] [MONITOR] rodando=1 | forno=15, embalagem=0, caixa=0 | criadas=32, finalizadas=15
+2025-12-11 10:00:00 [INFO] [EMBALAGEM] Bolacha #16 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:00 [INFO] [CAIXA] Bolacha #16 FINALIZADA e colocada na caixa
+2025-12-11 10:00:00 [INFO] [PRODUTOR] Criou bolacha #33 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:00 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:00 [INFO] [MONITOR] rodando=1 | forno=16, embalagem=0, caixa=0 | criadas=33, finalizadas=16
+2025-12-11 10:00:01 [INFO] [FORNO] Bolacha #17 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:01 [INFO] [FORNO] Recebeu bolacha #18 (CRUA) -> assando...
+2025-12-11 10:00:01 [INFO] [EMBALAGEM] Recebeu bolacha #17 (ASSADA) -> embalando...
+2025-12-11 10:00:01 [INFO] [PRODUTOR] Criou bolacha #34 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:01 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:01 [INFO] [MONITOR] rodando=1 | forno=16, embalagem=0, caixa=0 | criadas=34, finalizadas=16
+2025-12-11 10:00:02 [INFO] [EMBALAGEM] Bolacha #17 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:02 [INFO] [CAIXA] Bolacha #17 FINALIZADA e colocada na caixa
+2025-12-11 10:00:02 [INFO] [PRODUTOR] Criou bolacha #35 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:02 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:02 [INFO] [MONITOR] rodando=1 | forno=17, embalagem=0, caixa=0 | criadas=35, finalizadas=17
+2025-12-11 10:00:03 [INFO] [FORNO] Bolacha #18 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:03 [INFO] [FORNO] Recebeu bolacha #19 (CRUA) -> assando...
+2025-12-11 10:00:03 [INFO] [EMBALAGEM] Recebeu bolacha #18 (ASSADA) -> embalando...
+2025-12-11 10:00:03 [INFO] [PRODUTOR] Criou bolacha #36 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:03 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:03 [INFO] [MONITOR] rodando=1 | forno=17, embalagem=0, caixa=0 | criadas=36, finalizadas=17
+2025-12-11 10:00:04 [INFO] [EMBALAGEM] Bolacha #18 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:04 [INFO] [CAIXA] Bolacha #18 FINALIZADA e colocada na caixa
+2025-12-11 10:00:04 [INFO] [PRODUTOR] Criou bolacha #37 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:04 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:04 [INFO] [MONITOR] rodando=1 | forno=18, embalagem=0, caixa=0 | criadas=37, finalizadas=18
+2025-12-11 10:00:05 [INFO] [FORNO] Bolacha #19 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:05 [INFO] [FORNO] Recebeu bolacha #20 (CRUA) -> assando...
+2025-12-11 10:00:05 [INFO] [EMBALAGEM] Recebeu bolacha #19 (ASSADA) -> embalando...
+2025-12-11 10:00:05 [INFO] [PRODUTOR] Criou bolacha #38 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:05 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:05 [INFO] [MONITOR] rodando=1 | forno=18, embalagem=0, caixa=0 | criadas=38, finalizadas=18
+2025-12-11 10:00:06 [INFO] [EMBALAGEM] Bolacha #19 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:06 [INFO] [CAIXA] Bolacha #19 FINALIZADA e colocada na caixa
+2025-12-11 10:00:06 [INFO] [PRODUTOR] Criou bolacha #39 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:06 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:06 [INFO] [MONITOR] rodando=1 | forno=19, embalagem=0, caixa=0 | criadas=39, finalizadas=19
+2025-12-11 10:00:07 [INFO] [FORNO] Bolacha #20 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:07 [INFO] [FORNO] Recebeu bolacha #21 (CRUA) -> assando...
+2025-12-11 10:00:07 [INFO] [EMBALAGEM] Recebeu bolacha #20 (ASSADA) -> embalando...
+2025-12-11 10:00:07 [INFO] [PRODUTOR] Criou bolacha #40 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:07 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:07 [INFO] [MONITOR] rodando=1 | forno=19, embalagem=0, caixa=0 | criadas=40, finalizadas=19
+2025-12-11 10:00:08 [INFO] [EMBALAGEM] Bolacha #20 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:08 [INFO] [CAIXA] Bolacha #20 FINALIZADA e colocada na caixa
+2025-12-11 10:00:08 [INFO] [PRODUTOR] Criou bolacha #41 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:08 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:08 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=41, finalizadas=20
+2025-12-11 10:00:09 [INFO] [FORNO] Bolacha #21 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:09 [INFO] [FORNO] Recebeu bolacha #22 (CRUA) -> assando...
+2025-12-11 10:00:09 [INFO] [EMBALAGEM] Recebeu bolacha #21 (ASSADA) -> embalando...
+2025-12-11 10:00:09 [INFO] [PRODUTOR] Criou bolacha #42 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:09 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:09 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=42, finalizadas=20
+2025-12-11 10:00:10 [INFO] [EMBALAGEM] Bolacha #21 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:10 [INFO] [CAIXA] Bolacha #21 FINALIZADA e colocada na caixa
+2025-12-11 10:00:10 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:10 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=43, finalizadas=21
+2025-12-11 10:00:11 [INFO] [FORNO] Bolacha #22 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:11 [INFO] [FORNO] Recebeu bolacha #23 (CRUA) -> assando...
+2025-12-11 10:00:11 [INFO] [EMBALAGEM] Recebeu bolacha #22 (ASSADA) -> embalando...
+2025-12-11 10:00:11 [INFO] [PRODUTOR] Criou bolacha #43 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:11 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:11 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=43, finalizadas=21
+2025-12-11 10:00:12 [INFO] [EMBALAGEM] Bolacha #22 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:12 [INFO] [CAIXA] Bolacha #22 FINALIZADA e colocada na caixa
+2025-12-11 10:00:12 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:12 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=44, finalizadas=22
+2025-12-11 10:00:13 [INFO] [FORNO] Bolacha #23 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:13 [INFO] [EMBALAGEM] Recebeu bolacha #23 (ASSADA) -> embalando...
+2025-12-11 10:00:13 [INFO] [PRODUTOR] Criou bolacha #44 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:13 [INFO] [FORNO] Recebeu bolacha #24 (CRUA) -> assando...
+2025-12-11 10:00:13 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:13 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=44, finalizadas=22
+2025-12-11 10:00:14 [INFO] [EMBALAGEM] Bolacha #23 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:14 [INFO] [CAIXA] Bolacha #23 FINALIZADA e colocada na caixa
+2025-12-11 10:00:14 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:14 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=45, finalizadas=23
+2025-12-11 10:00:15 [INFO] [FORNO] Bolacha #24 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:15 [INFO] [EMBALAGEM] Recebeu bolacha #24 (ASSADA) -> embalando...
+2025-12-11 10:00:15 [INFO] [PRODUTOR] Criou bolacha #45 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:15 [INFO] [FORNO] Recebeu bolacha #25 (CRUA) -> assando...
+2025-12-11 10:00:15 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:15 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=45, finalizadas=23
+2025-12-11 10:00:16 [INFO] [EMBALAGEM] Bolacha #24 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:16 [INFO] [CAIXA] Bolacha #24 FINALIZADA e colocada na caixa
+2025-12-11 10:00:16 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:16 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=46, finalizadas=24
+2025-12-11 10:00:17 [INFO] [FORNO] Bolacha #25 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:17 [INFO] [EMBALAGEM] Recebeu bolacha #25 (ASSADA) -> embalando...
+2025-12-11 10:00:17 [INFO] [PRODUTOR] Criou bolacha #46 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:17 [INFO] [FORNO] Recebeu bolacha #26 (CRUA) -> assando...
+2025-12-11 10:00:17 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:17 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=46, finalizadas=24
+2025-12-11 10:00:18 [INFO] [EMBALAGEM] Bolacha #25 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:18 [INFO] [CAIXA] Bolacha #25 FINALIZADA e colocada na caixa
+2025-12-11 10:00:18 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:18 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=47, finalizadas=25
+2025-12-11 10:00:19 [INFO] [FORNO] Bolacha #26 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:19 [INFO] [EMBALAGEM] Recebeu bolacha #26 (ASSADA) -> embalando...
+2025-12-11 10:00:19 [INFO] [PRODUTOR] Criou bolacha #47 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:19 [INFO] [FORNO] Recebeu bolacha #27 (CRUA) -> assando...
+2025-12-11 10:00:19 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:19 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=47, finalizadas=25
+2025-12-11 10:00:20 [INFO] [EMBALAGEM] Bolacha #26 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:20 [INFO] [CAIXA] Bolacha #26 FINALIZADA e colocada na caixa
+2025-12-11 10:00:20 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:20 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=48, finalizadas=26
+2025-12-11 10:00:21 [INFO] [FORNO] Bolacha #27 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:21 [INFO] [EMBALAGEM] Recebeu bolacha #27 (ASSADA) -> embalando...
+2025-12-11 10:00:21 [INFO] [PRODUTOR] Criou bolacha #48 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:21 [INFO] [FORNO] Recebeu bolacha #28 (CRUA) -> assando...
+2025-12-11 10:00:21 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:21 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=48, finalizadas=26
+2025-12-11 10:00:22 [INFO] [EMBALAGEM] Bolacha #27 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:22 [INFO] [CAIXA] Bolacha #27 FINALIZADA e colocada na caixa
+2025-12-11 10:00:22 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:22 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=49, finalizadas=27
+2025-12-11 10:00:23 [INFO] [FORNO] Bolacha #28 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:23 [INFO] [EMBALAGEM] Recebeu bolacha #28 (ASSADA) -> embalando...
+2025-12-11 10:00:23 [INFO] [PRODUTOR] Criou bolacha #49 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:23 [INFO] [FORNO] Recebeu bolacha #29 (CRUA) -> assando...
+2025-12-11 10:00:23 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:23 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=49, finalizadas=27
+2025-12-11 10:00:24 [INFO] [EMBALAGEM] Bolacha #28 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:24 [INFO] [CAIXA] Bolacha #28 FINALIZADA e colocada na caixa
+2025-12-11 10:00:24 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:24 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=50, finalizadas=28
+2025-12-11 10:00:25 [INFO] [FORNO] Bolacha #29 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:25 [INFO] [EMBALAGEM] Recebeu bolacha #29 (ASSADA) -> embalando...
+2025-12-11 10:00:25 [INFO] [PRODUTOR] Criou bolacha #50 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:25 [INFO] [FORNO] Recebeu bolacha #30 (CRUA) -> assando...
+2025-12-11 10:00:25 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:25 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=50, finalizadas=28
+2025-12-11 10:00:26 [INFO] [EMBALAGEM] Bolacha #29 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:26 [INFO] [CAIXA] Bolacha #29 FINALIZADA e colocada na caixa
+2025-12-11 10:00:26 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:26 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=51, finalizadas=29
+2025-12-11 10:00:27 [INFO] [FORNO] Bolacha #30 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:27 [INFO] [EMBALAGEM] Recebeu bolacha #30 (ASSADA) -> embalando...
+2025-12-11 10:00:27 [INFO] [PRODUTOR] Criou bolacha #51 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:27 [INFO] [FORNO] Recebeu bolacha #31 (CRUA) -> assando...
+2025-12-11 10:00:27 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:27 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=51, finalizadas=29
+2025-12-11 10:00:26 [INFO] [EMBALAGEM] Bolacha #30 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:26 [INFO] [CAIXA] Bolacha #30 FINALIZADA e colocada na caixa
+2025-12-11 10:00:26 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:26 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=52, finalizadas=30
+2025-12-11 10:00:27 [INFO] [FORNO] Bolacha #31 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:27 [INFO] [FORNO] Recebeu bolacha #32 (CRUA) -> assando...
+2025-12-11 10:00:27 [INFO] [PRODUTOR] Criou bolacha #52 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:27 [INFO] [EMBALAGEM] Recebeu bolacha #31 (ASSADA) -> embalando...
+2025-12-11 10:00:27 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:27 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=52, finalizadas=30
+2025-12-11 10:00:28 [INFO] [EMBALAGEM] Bolacha #31 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:28 [INFO] [CAIXA] Bolacha #31 FINALIZADA e colocada na caixa
+2025-12-11 10:00:28 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:28 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=53, finalizadas=31
+2025-12-11 10:00:29 [INFO] [FORNO] Bolacha #32 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:29 [INFO] [EMBALAGEM] Recebeu bolacha #32 (ASSADA) -> embalando...
+2025-12-11 10:00:29 [INFO] [FORNO] Recebeu bolacha #33 (CRUA) -> assando...
+2025-12-11 10:00:29 [INFO] [PRODUTOR] Criou bolacha #53 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:29 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:29 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=53, finalizadas=31
+2025-12-11 10:00:30 [INFO] [EMBALAGEM] Bolacha #32 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:30 [INFO] [CAIXA] Bolacha #32 FINALIZADA e colocada na caixa
+2025-12-11 10:00:30 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:30 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=54, finalizadas=32
+2025-12-11 10:00:31 [INFO] [FORNO] Bolacha #33 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:31 [INFO] [FORNO] Recebeu bolacha #34 (CRUA) -> assando...
+2025-12-11 10:00:31 [INFO] [PRODUTOR] Criou bolacha #54 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:31 [INFO] [EMBALAGEM] Recebeu bolacha #33 (ASSADA) -> embalando...
+2025-12-11 10:00:31 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:31 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=54, finalizadas=32
+2025-12-11 10:00:32 [INFO] [EMBALAGEM] Bolacha #33 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:32 [INFO] [CAIXA] Bolacha #33 FINALIZADA e colocada na caixa
+2025-12-11 10:00:32 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:32 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=55, finalizadas=33
+2025-12-11 10:00:33 [INFO] [FORNO] Bolacha #34 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:33 [INFO] [EMBALAGEM] Recebeu bolacha #34 (ASSADA) -> embalando...
+2025-12-11 10:00:33 [INFO] [PRODUTOR] Criou bolacha #55 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:33 [INFO] [FORNO] Recebeu bolacha #35 (CRUA) -> assando...
+2025-12-11 10:00:33 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:33 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=55, finalizadas=33
+2025-12-11 10:00:34 [INFO] [EMBALAGEM] Bolacha #34 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:34 [INFO] [CAIXA] Bolacha #34 FINALIZADA e colocada na caixa
+2025-12-11 10:00:34 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:34 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=56, finalizadas=34
+2025-12-11 10:00:35 [INFO] [FORNO] Bolacha #35 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:35 [INFO] [EMBALAGEM] Recebeu bolacha #35 (ASSADA) -> embalando...
+2025-12-11 10:00:35 [INFO] [PRODUTOR] Criou bolacha #56 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:35 [INFO] [FORNO] Recebeu bolacha #36 (CRUA) -> assando...
+2025-12-11 10:00:35 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:35 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=56, finalizadas=34
+2025-12-11 10:00:36 [INFO] [EMBALAGEM] Bolacha #35 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:36 [INFO] [CAIXA] Bolacha #35 FINALIZADA e colocada na caixa
+2025-12-11 10:00:36 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:36 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=57, finalizadas=35
+2025-12-11 10:00:37 [INFO] [FORNO] Bolacha #36 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:37 [INFO] [EMBALAGEM] Recebeu bolacha #36 (ASSADA) -> embalando...
+2025-12-11 10:00:37 [INFO] [FORNO] Recebeu bolacha #37 (CRUA) -> assando...
+2025-12-11 10:00:37 [INFO] [PRODUTOR] Criou bolacha #57 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:37 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:37 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=57, finalizadas=35
+2025-12-11 10:00:38 [INFO] [EMBALAGEM] Bolacha #36 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:38 [INFO] [CAIXA] Bolacha #36 FINALIZADA e colocada na caixa
+2025-12-11 10:00:38 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:38 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=58, finalizadas=36
+2025-12-11 10:00:39 [INFO] [FORNO] Bolacha #37 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:39 [INFO] [EMBALAGEM] Recebeu bolacha #37 (ASSADA) -> embalando...
+2025-12-11 10:00:39 [INFO] [PRODUTOR] Criou bolacha #58 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:39 [INFO] [FORNO] Recebeu bolacha #38 (CRUA) -> assando...
+2025-12-11 10:00:39 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:39 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=58, finalizadas=36
+2025-12-11 10:00:40 [INFO] [EMBALAGEM] Bolacha #37 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:40 [INFO] [CAIXA] Bolacha #37 FINALIZADA e colocada na caixa
+2025-12-11 10:00:40 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:40 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=59, finalizadas=37
+2025-12-11 10:00:41 [INFO] [FORNO] Bolacha #38 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:41 [INFO] [EMBALAGEM] Recebeu bolacha #38 (ASSADA) -> embalando...
+2025-12-11 10:00:41 [INFO] [FORNO] Recebeu bolacha #39 (CRUA) -> assando...
+2025-12-11 10:00:41 [INFO] [PRODUTOR] Criou bolacha #59 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:41 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:41 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=59, finalizadas=37
+2025-12-11 10:00:42 [INFO] [EMBALAGEM] Bolacha #38 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:42 [INFO] [CAIXA] Bolacha #38 FINALIZADA e colocada na caixa
+2025-12-11 10:00:42 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:42 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=59, finalizadas=38
+2025-12-11 10:00:43 [INFO] [FORNO] Bolacha #39 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:43 [INFO] [EMBALAGEM] Recebeu bolacha #39 (ASSADA) -> embalando...
+2025-12-11 10:00:43 [INFO] [PRODUTOR] Criou bolacha #60 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:43 [INFO] [FORNO] Recebeu bolacha #40 (CRUA) -> assando...
+2025-12-11 10:00:43 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:43 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=60, finalizadas=38
+2025-12-11 10:00:44 [INFO] [EMBALAGEM] Bolacha #39 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:44 [INFO] [CAIXA] Bolacha #39 FINALIZADA e colocada na caixa
+2025-12-11 10:00:44 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:44 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=61, finalizadas=39
+2025-12-11 10:00:45 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:45 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=61, finalizadas=39
+2025-12-11 10:00:45 [INFO] [FORNO] Bolacha #40 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:45 [INFO] [FORNO] Recebeu bolacha #41 (CRUA) -> assando...
+2025-12-11 10:00:45 [INFO] [PRODUTOR] Criou bolacha #61 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:45 [INFO] [EMBALAGEM] Recebeu bolacha #40 (ASSADA) -> embalando...
+2025-12-11 10:00:46 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:46 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=61, finalizadas=40
+2025-12-11 10:00:46 [INFO] [CAIXA] Bolacha #40 FINALIZADA e colocada na caixa
+2025-12-11 10:00:46 [INFO] [EMBALAGEM] Bolacha #40 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:47 [INFO] [FORNO] Bolacha #41 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:47 [INFO] [FORNO] Recebeu bolacha #42 (CRUA) -> assando...
+2025-12-11 10:00:47 [INFO] [EMBALAGEM] Recebeu bolacha #41 (ASSADA) -> embalando...
+2025-12-11 10:00:47 [INFO] [PRODUTOR] Criou bolacha #62 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:47 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:47 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=62, finalizadas=40
+2025-12-11 10:00:48 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:48 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=63, finalizadas=40
+2025-12-11 10:00:48 [INFO] [EMBALAGEM] Bolacha #41 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:48 [INFO] [CAIXA] Bolacha #41 FINALIZADA e colocada na caixa
+2025-12-11 10:00:49 [INFO] [FORNO] Bolacha #42 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:49 [INFO] [FORNO] Recebeu bolacha #43 (CRUA) -> assando...
+2025-12-11 10:00:49 [INFO] [PRODUTOR] Criou bolacha #63 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:49 [INFO] [EMBALAGEM] Recebeu bolacha #42 (ASSADA) -> embalando...
+2025-12-11 10:00:49 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:49 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=63, finalizadas=41
+2025-12-11 10:00:50 [INFO] [EMBALAGEM] Bolacha #42 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:50 [INFO] [CAIXA] Bolacha #42 FINALIZADA e colocada na caixa
+2025-12-11 10:00:50 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:50 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=64, finalizadas=42
+2025-12-11 10:00:51 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:51 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=64, finalizadas=42
+2025-12-11 10:00:51 [INFO] [FORNO] Bolacha #43 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:51 [INFO] [EMBALAGEM] Recebeu bolacha #43 (ASSADA) -> embalando...
+2025-12-11 10:00:51 [INFO] [PRODUTOR] Criou bolacha #64 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:51 [INFO] [FORNO] Recebeu bolacha #44 (CRUA) -> assando...
+2025-12-11 10:00:52 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:52 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=64, finalizadas=42
+2025-12-11 10:00:52 [INFO] [EMBALAGEM] Bolacha #43 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:52 [INFO] [CAIXA] Bolacha #43 FINALIZADA e colocada na caixa
+2025-12-11 10:00:53 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:53 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=65, finalizadas=43
+2025-12-11 10:00:53 [INFO] [FORNO] Bolacha #44 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:53 [INFO] [EMBALAGEM] Recebeu bolacha #44 (ASSADA) -> embalando...
+2025-12-11 10:00:53 [INFO] [PRODUTOR] Criou bolacha #65 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:53 [INFO] [FORNO] Recebeu bolacha #45 (CRUA) -> assando...
+2025-12-11 10:00:54 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:54 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=65, finalizadas=43
+2025-12-11 10:00:54 [INFO] [EMBALAGEM] Bolacha #44 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:54 [INFO] [CAIXA] Bolacha #44 FINALIZADA e colocada na caixa
+2025-12-11 10:00:55 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:55 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=66, finalizadas=44
+2025-12-11 10:00:55 [INFO] [FORNO] Bolacha #45 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:55 [INFO] [EMBALAGEM] Recebeu bolacha #45 (ASSADA) -> embalando...
+2025-12-11 10:00:55 [INFO] [PRODUTOR] Criou bolacha #66 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:55 [INFO] [FORNO] Recebeu bolacha #46 (CRUA) -> assando...
+2025-12-11 10:00:56 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:56 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=66, finalizadas=44
+2025-12-11 10:00:56 [INFO] [EMBALAGEM] Bolacha #45 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:56 [INFO] [CAIXA] Bolacha #45 FINALIZADA e colocada na caixa
+2025-12-11 10:00:57 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:57 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=67, finalizadas=45
+2025-12-11 10:00:57 [INFO] [FORNO] Bolacha #46 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:57 [INFO] [EMBALAGEM] Recebeu bolacha #46 (ASSADA) -> embalando...
+2025-12-11 10:00:57 [INFO] [PRODUTOR] Criou bolacha #67 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:57 [INFO] [FORNO] Recebeu bolacha #47 (CRUA) -> assando...
+2025-12-11 10:00:56 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:56 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=67, finalizadas=45
+2025-12-11 10:00:56 [INFO] [CAIXA] Bolacha #46 FINALIZADA e colocada na caixa
+2025-12-11 10:00:56 [INFO] [EMBALAGEM] Bolacha #46 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:57 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:57 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=68, finalizadas=46
+2025-12-11 10:00:57 [INFO] [FORNO] Bolacha #47 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:57 [INFO] [FORNO] Recebeu bolacha #48 (CRUA) -> assando...
+2025-12-11 10:00:57 [INFO] [EMBALAGEM] Recebeu bolacha #47 (ASSADA) -> embalando...
+2025-12-11 10:00:57 [INFO] [PRODUTOR] Criou bolacha #68 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:00:58 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:58 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=68, finalizadas=46
+2025-12-11 10:00:58 [INFO] [EMBALAGEM] Bolacha #47 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:00:58 [INFO] [CAIXA] Bolacha #47 FINALIZADA e colocada na caixa
+2025-12-11 10:00:59 [DEBUG] [MONITOR] Hora atual 10:00, janela_ativa=1
+2025-12-11 10:00:59 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=69, finalizadas=47
+2025-12-11 10:00:59 [INFO] [FORNO] Bolacha #48 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:00:59 [INFO] [EMBALAGEM] Recebeu bolacha #48 (ASSADA) -> embalando...
+2025-12-11 10:00:59 [INFO] [FORNO] Recebeu bolacha #49 (CRUA) -> assando...
+2025-12-11 10:00:59 [INFO] [PRODUTOR] Criou bolacha #69 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:00 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:00 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=69, finalizadas=47
+2025-12-11 10:01:00 [INFO] [EMBALAGEM] Bolacha #48 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:00 [INFO] [CAIXA] Bolacha #48 FINALIZADA e colocada na caixa
+2025-12-11 10:01:01 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:01 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=70, finalizadas=48
+2025-12-11 10:01:01 [INFO] [FORNO] Bolacha #49 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:01 [INFO] [FORNO] Recebeu bolacha #50 (CRUA) -> assando...
+2025-12-11 10:01:01 [INFO] [EMBALAGEM] Recebeu bolacha #49 (ASSADA) -> embalando...
+2025-12-11 10:01:01 [INFO] [PRODUTOR] Criou bolacha #70 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:02 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:02 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=70, finalizadas=48
+2025-12-11 10:01:02 [INFO] [EMBALAGEM] Bolacha #49 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:02 [INFO] [CAIXA] Bolacha #49 FINALIZADA e colocada na caixa
+2025-12-11 10:01:03 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:03 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=71, finalizadas=49
+2025-12-11 10:01:03 [INFO] [FORNO] Bolacha #50 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:03 [INFO] [FORNO] Recebeu bolacha #51 (CRUA) -> assando...
+2025-12-11 10:01:03 [INFO] [PRODUTOR] Criou bolacha #71 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:03 [INFO] [EMBALAGEM] Recebeu bolacha #50 (ASSADA) -> embalando...
+2025-12-11 10:01:04 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:04 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=71, finalizadas=49
+2025-12-11 10:01:04 [INFO] [EMBALAGEM] Bolacha #50 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:04 [INFO] [CAIXA] Bolacha #50 FINALIZADA e colocada na caixa
+2025-12-11 10:01:05 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:05 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=72, finalizadas=50
+2025-12-11 10:01:05 [INFO] [FORNO] Bolacha #51 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:05 [INFO] [FORNO] Recebeu bolacha #52 (CRUA) -> assando...
+2025-12-11 10:01:05 [INFO] [EMBALAGEM] Recebeu bolacha #51 (ASSADA) -> embalando...
+2025-12-11 10:01:05 [INFO] [PRODUTOR] Criou bolacha #72 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:06 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:06 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=72, finalizadas=50
+2025-12-11 10:01:06 [INFO] [EMBALAGEM] Bolacha #51 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:06 [INFO] [CAIXA] Bolacha #51 FINALIZADA e colocada na caixa
+2025-12-11 10:01:07 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:07 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=73, finalizadas=51
+2025-12-11 10:01:07 [INFO] [FORNO] Bolacha #52 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:07 [INFO] [FORNO] Recebeu bolacha #53 (CRUA) -> assando...
+2025-12-11 10:01:07 [INFO] [PRODUTOR] Criou bolacha #73 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:07 [INFO] [EMBALAGEM] Recebeu bolacha #52 (ASSADA) -> embalando...
+2025-12-11 10:01:08 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:08 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=73, finalizadas=51
+2025-12-11 10:01:08 [INFO] [EMBALAGEM] Bolacha #52 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:08 [INFO] [CAIXA] Bolacha #52 FINALIZADA e colocada na caixa
+2025-12-11 10:01:09 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:09 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=74, finalizadas=52
+2025-12-11 10:01:09 [INFO] [FORNO] Bolacha #53 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:09 [INFO] [FORNO] Recebeu bolacha #54 (CRUA) -> assando...
+2025-12-11 10:01:09 [INFO] [PRODUTOR] Criou bolacha #74 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:09 [INFO] [EMBALAGEM] Recebeu bolacha #53 (ASSADA) -> embalando...
+2025-12-11 10:01:10 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:10 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=74, finalizadas=52
+2025-12-11 10:01:10 [INFO] [EMBALAGEM] Bolacha #53 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:10 [INFO] [CAIXA] Bolacha #53 FINALIZADA e colocada na caixa
+2025-12-11 10:01:11 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:11 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=75, finalizadas=53
+2025-12-11 10:01:11 [INFO] [FORNO] Bolacha #54 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:11 [INFO] [FORNO] Recebeu bolacha #55 (CRUA) -> assando...
+2025-12-11 10:01:11 [INFO] [EMBALAGEM] Recebeu bolacha #54 (ASSADA) -> embalando...
+2025-12-11 10:01:11 [INFO] [PRODUTOR] Criou bolacha #75 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:12 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:12 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=75, finalizadas=53
+2025-12-11 10:01:12 [INFO] [EMBALAGEM] Bolacha #54 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:12 [INFO] [CAIXA] Bolacha #54 FINALIZADA e colocada na caixa
+2025-12-11 10:01:13 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:13 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=76, finalizadas=54
+2025-12-11 10:01:13 [INFO] [FORNO] Bolacha #55 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:13 [INFO] [EMBALAGEM] Recebeu bolacha #55 (ASSADA) -> embalando...
+2025-12-11 10:01:13 [INFO] [PRODUTOR] Criou bolacha #76 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:13 [INFO] [FORNO] Recebeu bolacha #56 (CRUA) -> assando...
+2025-12-11 10:01:14 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:14 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=76, finalizadas=54
+2025-12-11 10:01:14 [INFO] [EMBALAGEM] Bolacha #55 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:14 [INFO] [CAIXA] Bolacha #55 FINALIZADA e colocada na caixa
+2025-12-11 10:01:15 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:15 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=77, finalizadas=55
+2025-12-11 10:01:15 [INFO] [FORNO] Bolacha #56 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:15 [INFO] [EMBALAGEM] Recebeu bolacha #56 (ASSADA) -> embalando...
+2025-12-11 10:01:15 [INFO] [PRODUTOR] Criou bolacha #77 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:15 [INFO] [FORNO] Recebeu bolacha #57 (CRUA) -> assando...
+2025-12-11 10:01:16 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:16 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=77, finalizadas=55
+2025-12-11 10:01:16 [INFO] [EMBALAGEM] Bolacha #56 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:16 [INFO] [CAIXA] Bolacha #56 FINALIZADA e colocada na caixa
+2025-12-11 10:01:17 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:17 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=78, finalizadas=56
+2025-12-11 10:01:17 [INFO] [FORNO] Bolacha #57 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:17 [INFO] [FORNO] Recebeu bolacha #58 (CRUA) -> assando...
+2025-12-11 10:01:17 [INFO] [PRODUTOR] Criou bolacha #78 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:17 [INFO] [EMBALAGEM] Recebeu bolacha #57 (ASSADA) -> embalando...
+2025-12-11 10:01:18 [INFO] [EMBALAGEM] Bolacha #57 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:18 [INFO] [CAIXA] Bolacha #57 FINALIZADA e colocada na caixa
+2025-12-11 10:01:18 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:18 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=79, finalizadas=57
+2025-12-11 10:01:19 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:19 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=1, caixa=0 | criadas=79, finalizadas=57
+2025-12-11 10:01:19 [INFO] [EMBALAGEM] Recebeu bolacha #58 (ASSADA) -> embalando...
+2025-12-11 10:01:19 [INFO] [FORNO] Bolacha #58 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:19 [INFO] [FORNO] Recebeu bolacha #59 (CRUA) -> assando...
+2025-12-11 10:01:19 [INFO] [PRODUTOR] Criou bolacha #79 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:20 [INFO] [EMBALAGEM] Bolacha #58 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:20 [INFO] [CAIXA] Bolacha #58 FINALIZADA e colocada na caixa
+2025-12-11 10:01:20 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:20 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=79, finalizadas=58
+2025-12-11 10:01:21 [INFO] [FORNO] Bolacha #59 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:21 [INFO] [FORNO] Recebeu bolacha #60 (CRUA) -> assando...
+2025-12-11 10:01:21 [INFO] [PRODUTOR] Criou bolacha #80 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:21 [INFO] [EMBALAGEM] Recebeu bolacha #59 (ASSADA) -> embalando...
+2025-12-11 10:01:21 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:21 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=80, finalizadas=58
+2025-12-11 10:01:22 [INFO] [EMBALAGEM] Bolacha #59 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:22 [INFO] [CAIXA] Bolacha #59 FINALIZADA e colocada na caixa
+2025-12-11 10:01:22 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:22 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=80, finalizadas=59
+2025-12-11 10:01:23 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:23 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=81, finalizadas=59
+2025-12-11 10:01:23 [INFO] [FORNO] Bolacha #60 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:23 [INFO] [EMBALAGEM] Recebeu bolacha #60 (ASSADA) -> embalando...
+2025-12-11 10:01:23 [INFO] [PRODUTOR] Criou bolacha #81 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:23 [INFO] [FORNO] Recebeu bolacha #61 (CRUA) -> assando...
+2025-12-11 10:01:24 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:24 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=82, finalizadas=59
+2025-12-11 10:01:24 [INFO] [EMBALAGEM] Bolacha #60 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:24 [INFO] [CAIXA] Bolacha #60 FINALIZADA e colocada na caixa
+2025-12-11 10:01:25 [INFO] [FORNO] Bolacha #61 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:25 [INFO] [FORNO] Recebeu bolacha #62 (CRUA) -> assando...
+2025-12-11 10:01:25 [INFO] [PRODUTOR] Criou bolacha #82 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:25 [INFO] [EMBALAGEM] Recebeu bolacha #61 (ASSADA) -> embalando...
+2025-12-11 10:01:25 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:25 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=82, finalizadas=60
+2025-12-11 10:01:26 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:26 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=82, finalizadas=60
+2025-12-11 10:01:26 [INFO] [EMBALAGEM] Bolacha #61 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:26 [INFO] [CAIXA] Bolacha #61 FINALIZADA e colocada na caixa
+2025-12-11 10:01:27 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:27 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=83, finalizadas=61
+2025-12-11 10:01:27 [INFO] [FORNO] Bolacha #62 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:27 [INFO] [FORNO] Recebeu bolacha #63 (CRUA) -> assando...
+2025-12-11 10:01:27 [INFO] [PRODUTOR] Criou bolacha #83 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:27 [INFO] [EMBALAGEM] Recebeu bolacha #62 (ASSADA) -> embalando...
+2025-12-11 10:01:25 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:25 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=83, finalizadas=61
+2025-12-11 10:01:25 [INFO] [EMBALAGEM] Bolacha #62 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:25 [INFO] [CAIXA] Bolacha #62 FINALIZADA e colocada na caixa
+2025-12-11 10:01:26 [INFO] [FORNO] Bolacha #63 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:26 [INFO] [EMBALAGEM] Recebeu bolacha #63 (ASSADA) -> embalando...
+2025-12-11 10:01:26 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:26 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=84, finalizadas=62
+2025-12-11 10:01:26 [INFO] [PRODUTOR] Criou bolacha #84 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:26 [INFO] [FORNO] Recebeu bolacha #64 (CRUA) -> assando...
+2025-12-11 10:01:27 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:27 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=84, finalizadas=62
+2025-12-11 10:01:27 [INFO] [EMBALAGEM] Bolacha #63 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:27 [INFO] [CAIXA] Bolacha #63 FINALIZADA e colocada na caixa
+2025-12-11 10:01:28 [INFO] [FORNO] Bolacha #64 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:28 [INFO] [EMBALAGEM] Recebeu bolacha #64 (ASSADA) -> embalando...
+2025-12-11 10:01:28 [INFO] [PRODUTOR] Criou bolacha #85 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:28 [INFO] [FORNO] Recebeu bolacha #65 (CRUA) -> assando...
+2025-12-11 10:01:28 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:28 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=85, finalizadas=63
+2025-12-11 10:01:29 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:29 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=85, finalizadas=63
+2025-12-11 10:01:29 [INFO] [EMBALAGEM] Bolacha #64 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:29 [INFO] [CAIXA] Bolacha #64 FINALIZADA e colocada na caixa
+2025-12-11 10:01:30 [INFO] [FORNO] Bolacha #65 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:30 [INFO] [EMBALAGEM] Recebeu bolacha #65 (ASSADA) -> embalando...
+2025-12-11 10:01:30 [INFO] [FORNO] Recebeu bolacha #66 (CRUA) -> assando...
+2025-12-11 10:01:30 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:30 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=86, finalizadas=64
+2025-12-11 10:01:30 [INFO] [PRODUTOR] Criou bolacha #86 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:31 [INFO] [EMBALAGEM] Bolacha #65 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:31 [INFO] [CAIXA] Bolacha #65 FINALIZADA e colocada na caixa
+2025-12-11 10:01:31 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:31 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=86, finalizadas=65
+2025-12-11 10:01:32 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:32 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=87, finalizadas=65
+2025-12-11 10:01:32 [INFO] [FORNO] Bolacha #66 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:32 [INFO] [FORNO] Recebeu bolacha #67 (CRUA) -> assando...
+2025-12-11 10:01:32 [INFO] [PRODUTOR] Criou bolacha #87 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:32 [INFO] [EMBALAGEM] Recebeu bolacha #66 (ASSADA) -> embalando...
+2025-12-11 10:01:33 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:33 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=87, finalizadas=65
+2025-12-11 10:01:33 [INFO] [EMBALAGEM] Bolacha #66 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:33 [INFO] [CAIXA] Bolacha #66 FINALIZADA e colocada na caixa
+2025-12-11 10:01:35 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:35 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=1, caixa=0 | criadas=88, finalizadas=66
+2025-12-11 10:01:35 [INFO] [FORNO] Bolacha #67 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:35 [INFO] [FORNO] Recebeu bolacha #68 (CRUA) -> assando...
+2025-12-11 10:01:35 [INFO] [PRODUTOR] Criou bolacha #88 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:35 [INFO] [EMBALAGEM] Recebeu bolacha #67 (ASSADA) -> embalando...
+2025-12-11 10:01:36 [INFO] [EMBALAGEM] Bolacha #67 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:36 [INFO] [CAIXA] Bolacha #67 FINALIZADA e colocada na caixa
+2025-12-11 10:01:36 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:36 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=88, finalizadas=67
+2025-12-11 10:01:37 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:37 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=89, finalizadas=67
+2025-12-11 10:01:37 [INFO] [FORNO] Bolacha #68 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:37 [INFO] [EMBALAGEM] Recebeu bolacha #68 (ASSADA) -> embalando...
+2025-12-11 10:01:37 [INFO] [FORNO] Recebeu bolacha #69 (CRUA) -> assando...
+2025-12-11 10:01:37 [INFO] [PRODUTOR] Criou bolacha #89 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:38 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:38 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=89, finalizadas=67
+2025-12-11 10:01:38 [INFO] [EMBALAGEM] Bolacha #68 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:38 [INFO] [CAIXA] Bolacha #68 FINALIZADA e colocada na caixa
+2025-12-11 10:01:39 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:39 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=90, finalizadas=68
+2025-12-11 10:01:39 [INFO] [FORNO] Bolacha #69 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:39 [INFO] [FORNO] Recebeu bolacha #70 (CRUA) -> assando...
+2025-12-11 10:01:39 [INFO] [EMBALAGEM] Recebeu bolacha #69 (ASSADA) -> embalando...
+2025-12-11 10:01:39 [INFO] [PRODUTOR] Criou bolacha #90 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:40 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:40 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=90, finalizadas=68
+2025-12-11 10:01:40 [INFO] [EMBALAGEM] Bolacha #69 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:40 [INFO] [CAIXA] Bolacha #69 FINALIZADA e colocada na caixa
+2025-12-11 10:01:41 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:41 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=91, finalizadas=69
+2025-12-11 10:01:41 [INFO] [FORNO] Bolacha #70 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:41 [INFO] [FORNO] Recebeu bolacha #71 (CRUA) -> assando...
+2025-12-11 10:01:41 [INFO] [EMBALAGEM] Recebeu bolacha #70 (ASSADA) -> embalando...
+2025-12-11 10:01:41 [INFO] [PRODUTOR] Criou bolacha #91 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:42 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:42 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=91, finalizadas=69
+2025-12-11 10:01:42 [INFO] [EMBALAGEM] Bolacha #70 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:42 [INFO] [CAIXA] Bolacha #70 FINALIZADA e colocada na caixa
+2025-12-11 10:01:43 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:43 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=92, finalizadas=70
+2025-12-11 10:01:43 [INFO] [FORNO] Bolacha #71 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:43 [INFO] [EMBALAGEM] Recebeu bolacha #71 (ASSADA) -> embalando...
+2025-12-11 10:01:43 [INFO] [PRODUTOR] Criou bolacha #92 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:43 [INFO] [FORNO] Recebeu bolacha #72 (CRUA) -> assando...
+2025-12-11 10:01:44 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:44 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=92, finalizadas=70
+2025-12-11 10:01:44 [INFO] [EMBALAGEM] Bolacha #71 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:44 [INFO] [CAIXA] Bolacha #71 FINALIZADA e colocada na caixa
+2025-12-11 10:01:45 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:45 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=93, finalizadas=71
+2025-12-11 10:01:45 [INFO] [FORNO] Bolacha #72 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:45 [INFO] [FORNO] Recebeu bolacha #73 (CRUA) -> assando...
+2025-12-11 10:01:45 [INFO] [EMBALAGEM] Recebeu bolacha #72 (ASSADA) -> embalando...
+2025-12-11 10:01:45 [INFO] [PRODUTOR] Criou bolacha #93 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:46 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:46 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=93, finalizadas=71
+2025-12-11 10:01:46 [INFO] [EMBALAGEM] Bolacha #72 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:46 [INFO] [CAIXA] Bolacha #72 FINALIZADA e colocada na caixa
+2025-12-11 10:01:47 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:47 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=94, finalizadas=72
+2025-12-11 10:01:47 [INFO] [FORNO] Bolacha #73 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:47 [INFO] [EMBALAGEM] Recebeu bolacha #73 (ASSADA) -> embalando...
+2025-12-11 10:01:47 [INFO] [FORNO] Recebeu bolacha #74 (CRUA) -> assando...
+2025-12-11 10:01:47 [INFO] [PRODUTOR] Criou bolacha #94 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:48 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:48 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=94, finalizadas=72
+2025-12-11 10:01:48 [INFO] [EMBALAGEM] Bolacha #73 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:48 [INFO] [CAIXA] Bolacha #73 FINALIZADA e colocada na caixa
+2025-12-11 10:01:49 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:49 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=95, finalizadas=73
+2025-12-11 10:01:49 [INFO] [FORNO] Bolacha #74 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:49 [INFO] [EMBALAGEM] Recebeu bolacha #74 (ASSADA) -> embalando...
+2025-12-11 10:01:49 [INFO] [FORNO] Recebeu bolacha #75 (CRUA) -> assando...
+2025-12-11 10:01:49 [INFO] [PRODUTOR] Criou bolacha #95 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:50 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:50 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=95, finalizadas=73
+2025-12-11 10:01:50 [INFO] [EMBALAGEM] Bolacha #74 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:50 [INFO] [CAIXA] Bolacha #74 FINALIZADA e colocada na caixa
+2025-12-11 10:01:51 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:51 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=96, finalizadas=74
+2025-12-11 10:01:51 [INFO] [FORNO] Bolacha #75 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:51 [INFO] [EMBALAGEM] Recebeu bolacha #75 (ASSADA) -> embalando...
+2025-12-11 10:01:51 [INFO] [PRODUTOR] Criou bolacha #96 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:51 [INFO] [FORNO] Recebeu bolacha #76 (CRUA) -> assando...
+2025-12-11 10:01:52 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:52 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=96, finalizadas=74
+2025-12-11 10:01:52 [INFO] [EMBALAGEM] Bolacha #75 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:52 [INFO] [CAIXA] Bolacha #75 FINALIZADA e colocada na caixa
+2025-12-11 10:01:53 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:53 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=97, finalizadas=75
+2025-12-11 10:01:53 [INFO] [FORNO] Bolacha #76 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:53 [INFO] [EMBALAGEM] Recebeu bolacha #76 (ASSADA) -> embalando...
+2025-12-11 10:01:53 [INFO] [PRODUTOR] Criou bolacha #97 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:53 [INFO] [FORNO] Recebeu bolacha #77 (CRUA) -> assando...
+2025-12-11 10:01:54 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:54 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=97, finalizadas=75
+2025-12-11 10:01:54 [INFO] [EMBALAGEM] Bolacha #76 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:54 [INFO] [CAIXA] Bolacha #76 FINALIZADA e colocada na caixa
+2025-12-11 10:01:55 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:55 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=98, finalizadas=76
+2025-12-11 10:01:55 [INFO] [FORNO] Bolacha #77 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:55 [INFO] [EMBALAGEM] Recebeu bolacha #77 (ASSADA) -> embalando...
+2025-12-11 10:01:55 [INFO] [PRODUTOR] Criou bolacha #98 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:55 [INFO] [FORNO] Recebeu bolacha #78 (CRUA) -> assando...
+2025-12-11 10:01:56 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:56 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=98, finalizadas=76
+2025-12-11 10:01:56 [INFO] [EMBALAGEM] Bolacha #77 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:56 [INFO] [CAIXA] Bolacha #77 FINALIZADA e colocada na caixa
+2025-12-11 10:01:57 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:57 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=99, finalizadas=77
+2025-12-11 10:01:57 [INFO] [FORNO] Bolacha #78 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:57 [INFO] [FORNO] Recebeu bolacha #79 (CRUA) -> assando...
+2025-12-11 10:01:57 [INFO] [EMBALAGEM] Recebeu bolacha #78 (ASSADA) -> embalando...
+2025-12-11 10:01:57 [INFO] [PRODUTOR] Criou bolacha #99 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:55 [INFO] [EMBALAGEM] Bolacha #78 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:55 [INFO] [CAIXA] Bolacha #78 FINALIZADA e colocada na caixa
+2025-12-11 10:01:55 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:55 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=99, finalizadas=78
+2025-12-11 10:01:56 [INFO] [FORNO] Bolacha #79 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:56 [INFO] [FORNO] Recebeu bolacha #80 (CRUA) -> assando...
+2025-12-11 10:01:56 [INFO] [EMBALAGEM] Recebeu bolacha #79 (ASSADA) -> embalando...
+2025-12-11 10:01:56 [INFO] [PRODUTOR] Criou bolacha #100 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:56 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:56 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=100, finalizadas=78
+2025-12-11 10:01:57 [INFO] [EMBALAGEM] Bolacha #79 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:57 [INFO] [CAIXA] Bolacha #79 FINALIZADA e colocada na caixa
+2025-12-11 10:01:57 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:57 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=101, finalizadas=79
+2025-12-11 10:01:58 [INFO] [FORNO] Bolacha #80 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:01:58 [INFO] [FORNO] Recebeu bolacha #81 (CRUA) -> assando...
+2025-12-11 10:01:58 [INFO] [EMBALAGEM] Recebeu bolacha #80 (ASSADA) -> embalando...
+2025-12-11 10:01:58 [INFO] [PRODUTOR] Criou bolacha #101 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:01:58 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:58 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=101, finalizadas=79
+2025-12-11 10:01:59 [INFO] [EMBALAGEM] Bolacha #80 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:01:59 [INFO] [CAIXA] Bolacha #80 FINALIZADA e colocada na caixa
+2025-12-11 10:01:59 [DEBUG] [MONITOR] Hora atual 10:01, janela_ativa=1
+2025-12-11 10:01:59 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=102, finalizadas=80
+2025-12-11 10:02:00 [INFO] [FORNO] Bolacha #81 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:00 [INFO] [EMBALAGEM] Recebeu bolacha #81 (ASSADA) -> embalando...
+2025-12-11 10:02:00 [INFO] [PRODUTOR] Criou bolacha #102 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:00 [INFO] [FORNO] Recebeu bolacha #82 (CRUA) -> assando...
+2025-12-11 10:02:00 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:00 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=102, finalizadas=80
+2025-12-11 10:02:01 [INFO] [EMBALAGEM] Bolacha #81 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:01 [INFO] [CAIXA] Bolacha #81 FINALIZADA e colocada na caixa
+2025-12-11 10:02:01 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:01 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=103, finalizadas=81
+2025-12-11 10:02:02 [INFO] [FORNO] Bolacha #82 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:02 [INFO] [FORNO] Recebeu bolacha #83 (CRUA) -> assando...
+2025-12-11 10:02:02 [INFO] [PRODUTOR] Criou bolacha #103 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:02 [INFO] [EMBALAGEM] Recebeu bolacha #82 (ASSADA) -> embalando...
+2025-12-11 10:02:02 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:02 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=103, finalizadas=81
+2025-12-11 10:02:03 [INFO] [EMBALAGEM] Bolacha #82 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:03 [INFO] [CAIXA] Bolacha #82 FINALIZADA e colocada na caixa
+2025-12-11 10:02:03 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:03 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=104, finalizadas=82
+2025-12-11 10:02:04 [INFO] [FORNO] Bolacha #83 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:04 [INFO] [EMBALAGEM] Recebeu bolacha #83 (ASSADA) -> embalando...
+2025-12-11 10:02:04 [INFO] [FORNO] Recebeu bolacha #84 (CRUA) -> assando...
+2025-12-11 10:02:04 [INFO] [PRODUTOR] Criou bolacha #104 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:04 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:04 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=104, finalizadas=82
+2025-12-11 10:02:05 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:05 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=104, finalizadas=82
+2025-12-11 10:02:05 [INFO] [EMBALAGEM] Bolacha #83 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:05 [INFO] [CAIXA] Bolacha #83 FINALIZADA e colocada na caixa
+2025-12-11 10:02:06 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:06 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=105, finalizadas=83
+2025-12-11 10:02:06 [INFO] [FORNO] Bolacha #84 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:06 [INFO] [FORNO] Recebeu bolacha #85 (CRUA) -> assando...
+2025-12-11 10:02:06 [INFO] [EMBALAGEM] Recebeu bolacha #84 (ASSADA) -> embalando...
+2025-12-11 10:02:06 [INFO] [PRODUTOR] Criou bolacha #105 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:07 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:07 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=105, finalizadas=83
+2025-12-11 10:02:07 [INFO] [EMBALAGEM] Bolacha #84 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:07 [INFO] [CAIXA] Bolacha #84 FINALIZADA e colocada na caixa
+2025-12-11 10:02:08 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:08 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=106, finalizadas=84
+2025-12-11 10:02:08 [INFO] [FORNO] Bolacha #85 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:08 [INFO] [FORNO] Recebeu bolacha #86 (CRUA) -> assando...
+2025-12-11 10:02:08 [INFO] [EMBALAGEM] Recebeu bolacha #85 (ASSADA) -> embalando...
+2025-12-11 10:02:08 [INFO] [PRODUTOR] Criou bolacha #106 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:09 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:09 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=106, finalizadas=84
+2025-12-11 10:02:09 [INFO] [EMBALAGEM] Bolacha #85 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:09 [INFO] [CAIXA] Bolacha #85 FINALIZADA e colocada na caixa
+2025-12-11 10:02:10 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:10 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=107, finalizadas=85
+2025-12-11 10:02:10 [INFO] [FORNO] Bolacha #86 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:10 [INFO] [FORNO] Recebeu bolacha #87 (CRUA) -> assando...
+2025-12-11 10:02:10 [INFO] [EMBALAGEM] Recebeu bolacha #86 (ASSADA) -> embalando...
+2025-12-11 10:02:10 [INFO] [PRODUTOR] Criou bolacha #107 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:11 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:11 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=107, finalizadas=85
+2025-12-11 10:02:11 [INFO] [EMBALAGEM] Bolacha #86 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:11 [INFO] [CAIXA] Bolacha #86 FINALIZADA e colocada na caixa
+2025-12-11 10:02:12 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:12 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=108, finalizadas=86
+2025-12-11 10:02:12 [INFO] [FORNO] Bolacha #87 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:12 [INFO] [EMBALAGEM] Recebeu bolacha #87 (ASSADA) -> embalando...
+2025-12-11 10:02:12 [INFO] [FORNO] Recebeu bolacha #88 (CRUA) -> assando...
+2025-12-11 10:02:12 [INFO] [PRODUTOR] Criou bolacha #108 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:13 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:13 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=108, finalizadas=86
+2025-12-11 10:02:13 [INFO] [EMBALAGEM] Bolacha #87 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:13 [INFO] [CAIXA] Bolacha #87 FINALIZADA e colocada na caixa
+2025-12-11 10:02:14 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:14 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=109, finalizadas=87
+2025-12-11 10:02:14 [INFO] [FORNO] Bolacha #88 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:14 [INFO] [FORNO] Recebeu bolacha #89 (CRUA) -> assando...
+2025-12-11 10:02:14 [INFO] [PRODUTOR] Criou bolacha #109 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:14 [INFO] [EMBALAGEM] Recebeu bolacha #88 (ASSADA) -> embalando...
+2025-12-11 10:02:15 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:15 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=109, finalizadas=87
+2025-12-11 10:02:15 [INFO] [EMBALAGEM] Bolacha #88 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:15 [INFO] [CAIXA] Bolacha #88 FINALIZADA e colocada na caixa
+2025-12-11 10:02:16 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:16 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=110, finalizadas=88
+2025-12-11 10:02:16 [INFO] [FORNO] Bolacha #89 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:16 [INFO] [EMBALAGEM] Recebeu bolacha #89 (ASSADA) -> embalando...
+2025-12-11 10:02:16 [INFO] [FORNO] Recebeu bolacha #90 (CRUA) -> assando...
+2025-12-11 10:02:16 [INFO] [PRODUTOR] Criou bolacha #110 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:17 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:17 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=110, finalizadas=88
+2025-12-11 10:02:17 [INFO] [EMBALAGEM] Bolacha #89 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:17 [INFO] [CAIXA] Bolacha #89 FINALIZADA e colocada na caixa
+2025-12-11 10:02:18 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:18 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=111, finalizadas=89
+2025-12-11 10:02:18 [INFO] [FORNO] Bolacha #90 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:18 [INFO] [FORNO] Recebeu bolacha #91 (CRUA) -> assando...
+2025-12-11 10:02:18 [INFO] [EMBALAGEM] Recebeu bolacha #90 (ASSADA) -> embalando...
+2025-12-11 10:02:18 [INFO] [PRODUTOR] Criou bolacha #111 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:19 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:19 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=111, finalizadas=89
+2025-12-11 10:02:19 [INFO] [EMBALAGEM] Bolacha #90 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:19 [INFO] [CAIXA] Bolacha #90 FINALIZADA e colocada na caixa
+2025-12-11 10:02:20 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:20 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=112, finalizadas=90
+2025-12-11 10:02:20 [INFO] [FORNO] Bolacha #91 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:20 [INFO] [FORNO] Recebeu bolacha #92 (CRUA) -> assando...
+2025-12-11 10:02:20 [INFO] [EMBALAGEM] Recebeu bolacha #91 (ASSADA) -> embalando...
+2025-12-11 10:02:20 [INFO] [PRODUTOR] Criou bolacha #112 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:21 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:21 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=112, finalizadas=90
+2025-12-11 10:02:21 [INFO] [EMBALAGEM] Bolacha #91 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:21 [INFO] [CAIXA] Bolacha #91 FINALIZADA e colocada na caixa
+2025-12-11 10:02:22 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:22 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=113, finalizadas=91
+2025-12-11 10:02:22 [INFO] [FORNO] Bolacha #92 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:22 [INFO] [EMBALAGEM] Recebeu bolacha #92 (ASSADA) -> embalando...
+2025-12-11 10:02:22 [INFO] [PRODUTOR] Criou bolacha #113 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:22 [INFO] [FORNO] Recebeu bolacha #93 (CRUA) -> assando...
+2025-12-11 10:02:23 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:23 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=114, finalizadas=91
+2025-12-11 10:02:23 [INFO] [EMBALAGEM] Bolacha #92 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:23 [INFO] [CAIXA] Bolacha #92 FINALIZADA e colocada na caixa
+2025-12-11 10:02:24 [INFO] [FORNO] Bolacha #93 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:24 [INFO] [EMBALAGEM] Recebeu bolacha #93 (ASSADA) -> embalando...
+2025-12-11 10:02:24 [INFO] [FORNO] Recebeu bolacha #94 (CRUA) -> assando...
+2025-12-11 10:02:24 [INFO] [PRODUTOR] Criou bolacha #114 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:24 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:24 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=114, finalizadas=92
+2025-12-11 10:02:25 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:25 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=115, finalizadas=92
+2025-12-11 10:02:25 [INFO] [EMBALAGEM] Bolacha #93 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:25 [INFO] [CAIXA] Bolacha #93 FINALIZADA e colocada na caixa
+2025-12-11 10:02:26 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:26 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=115, finalizadas=93
+2025-12-11 10:02:26 [INFO] [FORNO] Bolacha #94 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:26 [INFO] [EMBALAGEM] Recebeu bolacha #94 (ASSADA) -> embalando...
+2025-12-11 10:02:26 [INFO] [FORNO] Recebeu bolacha #95 (CRUA) -> assando...
+2025-12-11 10:02:26 [INFO] [PRODUTOR] Criou bolacha #115 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:25 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:25 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=115, finalizadas=93
+2025-12-11 10:02:25 [INFO] [EMBALAGEM] Bolacha #94 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:25 [INFO] [CAIXA] Bolacha #94 FINALIZADA e colocada na caixa
+2025-12-11 10:02:26 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:26 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=116, finalizadas=94
+2025-12-11 10:02:26 [INFO] [FORNO] Bolacha #95 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:26 [INFO] [EMBALAGEM] Recebeu bolacha #95 (ASSADA) -> embalando...
+2025-12-11 10:02:26 [INFO] [PRODUTOR] Criou bolacha #116 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:26 [INFO] [FORNO] Recebeu bolacha #96 (CRUA) -> assando...
+2025-12-11 10:02:27 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:27 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=117, finalizadas=94
+2025-12-11 10:02:27 [INFO] [EMBALAGEM] Bolacha #95 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:27 [INFO] [CAIXA] Bolacha #95 FINALIZADA e colocada na caixa
+2025-12-11 10:02:28 [INFO] [FORNO] Bolacha #96 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:28 [INFO] [EMBALAGEM] Recebeu bolacha #96 (ASSADA) -> embalando...
+2025-12-11 10:02:28 [INFO] [PRODUTOR] Criou bolacha #117 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:28 [INFO] [FORNO] Recebeu bolacha #97 (CRUA) -> assando...
+2025-12-11 10:02:28 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:28 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=117, finalizadas=95
+2025-12-11 10:02:29 [INFO] [EMBALAGEM] Bolacha #96 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:29 [INFO] [CAIXA] Bolacha #96 FINALIZADA e colocada na caixa
+2025-12-11 10:02:29 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:29 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=118, finalizadas=96
+2025-12-11 10:02:30 [INFO] [FORNO] Bolacha #97 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:30 [INFO] [EMBALAGEM] Recebeu bolacha #97 (ASSADA) -> embalando...
+2025-12-11 10:02:30 [INFO] [PRODUTOR] Criou bolacha #118 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:30 [INFO] [FORNO] Recebeu bolacha #98 (CRUA) -> assando...
+2025-12-11 10:02:30 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:30 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=118, finalizadas=96
+2025-12-11 10:02:31 [INFO] [EMBALAGEM] Bolacha #97 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:31 [INFO] [CAIXA] Bolacha #97 FINALIZADA e colocada na caixa
+2025-12-11 10:02:31 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:31 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=119, finalizadas=97
+2025-12-11 10:02:32 [INFO] [FORNO] Bolacha #98 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:32 [INFO] [FORNO] Recebeu bolacha #99 (CRUA) -> assando...
+2025-12-11 10:02:32 [INFO] [EMBALAGEM] Recebeu bolacha #98 (ASSADA) -> embalando...
+2025-12-11 10:02:32 [INFO] [PRODUTOR] Criou bolacha #119 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:32 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:32 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=119, finalizadas=97
+2025-12-11 10:02:33 [INFO] [EMBALAGEM] Bolacha #98 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:33 [INFO] [CAIXA] Bolacha #98 FINALIZADA e colocada na caixa
+2025-12-11 10:02:33 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:33 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=120, finalizadas=98
+2025-12-11 10:02:34 [INFO] [FORNO] Bolacha #99 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:34 [INFO] [EMBALAGEM] Recebeu bolacha #99 (ASSADA) -> embalando...
+2025-12-11 10:02:34 [INFO] [FORNO] Recebeu bolacha #100 (CRUA) -> assando...
+2025-12-11 10:02:34 [INFO] [PRODUTOR] Criou bolacha #120 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:34 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:34 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=120, finalizadas=98
+2025-12-11 10:02:35 [INFO] [EMBALAGEM] Bolacha #99 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:35 [INFO] [CAIXA] Bolacha #99 FINALIZADA e colocada na caixa
+2025-12-11 10:02:35 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:35 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=121, finalizadas=99
+2025-12-11 10:02:36 [INFO] [FORNO] Bolacha #100 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:36 [INFO] [EMBALAGEM] Recebeu bolacha #100 (ASSADA) -> embalando...
+2025-12-11 10:02:36 [INFO] [PRODUTOR] Criou bolacha #121 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:36 [INFO] [FORNO] Recebeu bolacha #101 (CRUA) -> assando...
+2025-12-11 10:02:36 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:36 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=121, finalizadas=99
+2025-12-11 10:02:37 [INFO] [EMBALAGEM] Bolacha #100 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:37 [INFO] [CAIXA] Bolacha #100 FINALIZADA e colocada na caixa
+2025-12-11 10:02:37 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:37 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=122, finalizadas=100
+2025-12-11 10:02:38 [INFO] [FORNO] Bolacha #101 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:38 [INFO] [FORNO] Recebeu bolacha #102 (CRUA) -> assando...
+2025-12-11 10:02:38 [INFO] [EMBALAGEM] Recebeu bolacha #101 (ASSADA) -> embalando...
+2025-12-11 10:02:38 [INFO] [PRODUTOR] Criou bolacha #122 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:38 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:38 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=122, finalizadas=100
+2025-12-11 10:02:39 [INFO] [EMBALAGEM] Bolacha #101 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:39 [INFO] [CAIXA] Bolacha #101 FINALIZADA e colocada na caixa
+2025-12-11 10:02:39 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:39 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=123, finalizadas=101
+2025-12-11 10:02:40 [INFO] [FORNO] Bolacha #102 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:40 [INFO] [FORNO] Recebeu bolacha #103 (CRUA) -> assando...
+2025-12-11 10:02:40 [INFO] [PRODUTOR] Criou bolacha #123 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:40 [INFO] [EMBALAGEM] Recebeu bolacha #102 (ASSADA) -> embalando...
+2025-12-11 10:02:40 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:40 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=123, finalizadas=101
+2025-12-11 10:02:41 [INFO] [EMBALAGEM] Bolacha #102 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:41 [INFO] [CAIXA] Bolacha #102 FINALIZADA e colocada na caixa
+2025-12-11 10:02:41 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:41 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=124, finalizadas=102
+2025-12-11 10:02:42 [INFO] [FORNO] Bolacha #103 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:42 [INFO] [FORNO] Recebeu bolacha #104 (CRUA) -> assando...
+2025-12-11 10:02:42 [INFO] [EMBALAGEM] Recebeu bolacha #103 (ASSADA) -> embalando...
+2025-12-11 10:02:42 [INFO] [PRODUTOR] Criou bolacha #124 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:43 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:43 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=124, finalizadas=102
+2025-12-11 10:02:43 [INFO] [EMBALAGEM] Bolacha #103 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:43 [INFO] [CAIXA] Bolacha #103 FINALIZADA e colocada na caixa
+2025-12-11 10:02:44 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:44 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=125, finalizadas=103
+2025-12-11 10:02:44 [INFO] [FORNO] Bolacha #104 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:44 [INFO] [EMBALAGEM] Recebeu bolacha #104 (ASSADA) -> embalando...
+2025-12-11 10:02:44 [INFO] [PRODUTOR] Criou bolacha #125 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:44 [INFO] [FORNO] Recebeu bolacha #105 (CRUA) -> assando...
+2025-12-11 10:02:45 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:45 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=125, finalizadas=103
+2025-12-11 10:02:45 [INFO] [EMBALAGEM] Bolacha #104 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:45 [INFO] [CAIXA] Bolacha #104 FINALIZADA e colocada na caixa
+2025-12-11 10:02:46 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:46 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=126, finalizadas=104
+2025-12-11 10:02:46 [INFO] [FORNO] Bolacha #105 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:46 [INFO] [EMBALAGEM] Recebeu bolacha #105 (ASSADA) -> embalando...
+2025-12-11 10:02:46 [INFO] [PRODUTOR] Criou bolacha #126 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:46 [INFO] [FORNO] Recebeu bolacha #106 (CRUA) -> assando...
+2025-12-11 10:02:47 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:47 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=126, finalizadas=104
+2025-12-11 10:02:47 [INFO] [EMBALAGEM] Bolacha #105 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:47 [INFO] [CAIXA] Bolacha #105 FINALIZADA e colocada na caixa
+2025-12-11 10:02:48 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:48 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=127, finalizadas=105
+2025-12-11 10:02:48 [INFO] [FORNO] Bolacha #106 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:48 [INFO] [FORNO] Recebeu bolacha #107 (CRUA) -> assando...
+2025-12-11 10:02:48 [INFO] [EMBALAGEM] Recebeu bolacha #106 (ASSADA) -> embalando...
+2025-12-11 10:02:48 [INFO] [PRODUTOR] Criou bolacha #127 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:49 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:49 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=127, finalizadas=105
+2025-12-11 10:02:49 [INFO] [EMBALAGEM] Bolacha #106 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:49 [INFO] [CAIXA] Bolacha #106 FINALIZADA e colocada na caixa
+2025-12-11 10:02:50 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:50 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=128, finalizadas=106
+2025-12-11 10:02:50 [INFO] [FORNO] Bolacha #107 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:50 [INFO] [FORNO] Recebeu bolacha #108 (CRUA) -> assando...
+2025-12-11 10:02:50 [INFO] [PRODUTOR] Criou bolacha #128 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:50 [INFO] [EMBALAGEM] Recebeu bolacha #107 (ASSADA) -> embalando...
+2025-12-11 10:02:51 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:51 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=128, finalizadas=106
+2025-12-11 10:02:51 [INFO] [EMBALAGEM] Bolacha #107 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:51 [INFO] [CAIXA] Bolacha #107 FINALIZADA e colocada na caixa
+2025-12-11 10:02:52 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:52 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=129, finalizadas=107
+2025-12-11 10:02:52 [INFO] [FORNO] Bolacha #108 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:52 [INFO] [EMBALAGEM] Recebeu bolacha #108 (ASSADA) -> embalando...
+2025-12-11 10:02:52 [INFO] [FORNO] Recebeu bolacha #109 (CRUA) -> assando...
+2025-12-11 10:02:52 [INFO] [PRODUTOR] Criou bolacha #129 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:53 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:53 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=129, finalizadas=107
+2025-12-11 10:02:53 [INFO] [EMBALAGEM] Bolacha #108 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:53 [INFO] [CAIXA] Bolacha #108 FINALIZADA e colocada na caixa
+2025-12-11 10:02:54 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:54 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=130, finalizadas=108
+2025-12-11 10:02:54 [INFO] [FORNO] Bolacha #109 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:54 [INFO] [FORNO] Recebeu bolacha #110 (CRUA) -> assando...
+2025-12-11 10:02:54 [INFO] [EMBALAGEM] Recebeu bolacha #109 (ASSADA) -> embalando...
+2025-12-11 10:02:54 [INFO] [PRODUTOR] Criou bolacha #130 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:55 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:55 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=130, finalizadas=108
+2025-12-11 10:02:55 [INFO] [EMBALAGEM] Bolacha #109 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:55 [INFO] [CAIXA] Bolacha #109 FINALIZADA e colocada na caixa
+2025-12-11 10:02:56 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:56 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=131, finalizadas=109
+2025-12-11 10:02:56 [INFO] [FORNO] Bolacha #110 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:56 [INFO] [FORNO] Recebeu bolacha #111 (CRUA) -> assando...
+2025-12-11 10:02:56 [INFO] [PRODUTOR] Criou bolacha #131 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:56 [INFO] [EMBALAGEM] Recebeu bolacha #110 (ASSADA) -> embalando...
+2025-12-11 10:02:54 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:54 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=131, finalizadas=109
+2025-12-11 10:02:55 [INFO] [EMBALAGEM] Bolacha #110 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:55 [INFO] [CAIXA] Bolacha #110 FINALIZADA e colocada na caixa
+2025-12-11 10:02:55 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:55 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=132, finalizadas=110
+2025-12-11 10:02:56 [INFO] [FORNO] Bolacha #111 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:56 [INFO] [EMBALAGEM] Recebeu bolacha #111 (ASSADA) -> embalando...
+2025-12-11 10:02:56 [INFO] [FORNO] Recebeu bolacha #112 (CRUA) -> assando...
+2025-12-11 10:02:56 [INFO] [PRODUTOR] Criou bolacha #132 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:56 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:56 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=132, finalizadas=110
+2025-12-11 10:02:57 [INFO] [EMBALAGEM] Bolacha #111 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:57 [INFO] [CAIXA] Bolacha #111 FINALIZADA e colocada na caixa
+2025-12-11 10:02:57 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:57 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=133, finalizadas=111
+2025-12-11 10:02:58 [INFO] [FORNO] Bolacha #112 esta ASSADA e foi para Esteira Embalagem
+2025-12-11 10:02:58 [INFO] [EMBALAGEM] Recebeu bolacha #112 (ASSADA) -> embalando...
+2025-12-11 10:02:58 [INFO] [PRODUTOR] Criou bolacha #133 (CRUA) e colocou na Esteira Forno
+2025-12-11 10:02:58 [INFO] [FORNO] Recebeu bolacha #113 (CRUA) -> assando...
+2025-12-11 10:02:58 [DEBUG] [MONITOR] Hora atual 10:02, janela_ativa=1
+2025-12-11 10:02:58 [INFO] [MONITOR] rodando=1 | forno=20, embalagem=0, caixa=0 | criadas=133, finalizadas=111
+2025-12-11 10:02:59 [INFO] [EMBALAGEM] Bolacha #112 esta EMBALADA e foi para Esteira Caixa
+2025-12-11 10:02:59 [INFO] [CAIXA] Bolacha #112 FINALIZADA e colocada na caixa

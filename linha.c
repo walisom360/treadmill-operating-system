@@ -40,7 +40,6 @@ void log_inicializar(const char *path)
     if (!g_log_file)
     {
         perror("fopen log.txt");
-        // segue sem log se não conseguir abrir
     }
 }
 
@@ -85,8 +84,7 @@ void log_escrever(const char *nivel, const char *fmt, ...)
 
 void config_carregar(const char *path)
 {
-    // Valores padrão
-    g_config.tempo_verificacao_sensor_ms = 1000; // 1 segundo
+    g_config.tempo_verificacao_sensor_ms = 1000;
     g_config.hora_ativacao = 0;
     g_config.minuto_ativacao = 0;
     g_config.hora_desativacao = 23;
@@ -103,7 +101,6 @@ void config_carregar(const char *path)
     char linha[128];
     while (fgets(linha, sizeof(linha), f))
     {
-        // ignora comentários
         char *p = strchr(linha, '#');
         if (p)
             *p = '\0';
@@ -169,9 +166,7 @@ void esteira_destruir(Esteira *e)
 
 void esteira_push(Esteira *e, Bolacha b)
 {
-    // garante espaço
     sem_wait(&e->tem_espaco);
-    // trava fila
     sem_wait(&e->mutex);
 
     e->fila[e->tail] = b;
@@ -186,9 +181,7 @@ Bolacha esteira_pop(Esteira *e)
 {
     Bolacha b;
 
-    // garante que há item
     sem_wait(&e->tem_item);
-    // trava fila
     sem_wait(&e->mutex);
 
     b = e->fila[e->head];
@@ -287,7 +280,6 @@ void linha_imprimir_estado(LinhaProducao *lp)
     printf("%s: %d bolachas na fila\n", e2->nome, e2->count);
     printf("%s: %d bolachas na fila\n", e3->nome, e3->count);
 
-    // Exemplo: imprime só alguns IDs para não poluir
     printf("\n[Debug curto das filas]\n");
     printf("  %s -> ", e1->nome);
     for (int i = 0, idx = e1->head; i < e1->count && i < 5; i++)
@@ -320,7 +312,6 @@ void linha_imprimir_estado(LinhaProducao *lp)
 
 // ---------- Tarefas (Threads) ----------
 
-// Produtor: cria bolachas cruas e coloca na esteira do forno (FIFO)
 void *tarefa_produtor(void *arg)
 {
     LinhaProducao *lp = (LinhaProducao *)arg;
@@ -329,7 +320,6 @@ void *tarefa_produtor(void *arg)
     {
         if (!linha_get_rodando(lp))
         {
-            // Pausado: espera um pouco e tenta de novo
             usleep(200 * 1000);
             continue;
         }
@@ -346,14 +336,12 @@ void *tarefa_produtor(void *arg)
         esteira_push(&lp->e_forno, b);
         log_escrever("INFO", "[PRODUTOR] Criou bolacha #%d (CRUA) e colocou na Esteira Forno", id);
 
-        // controla a taxa de produção
         sleep(1);
     }
 
     return NULL;
 }
 
-// Forno: retira da esteira do forno, "assa", e coloca na esteira de embalagem
 void *tarefa_forno(void *arg)
 {
     LinhaProducao *lp = (LinhaProducao *)arg;
@@ -369,7 +357,6 @@ void *tarefa_forno(void *arg)
         Bolacha b = esteira_pop(&lp->e_forno);
         log_escrever("INFO", "[FORNO] Recebeu bolacha #%d (CRUA) -> assando...", b.id);
 
-        // simula tempo de forno
         sleep(2);
         b.estado = BOLACHA_ASSADA;
 
@@ -380,7 +367,6 @@ void *tarefa_forno(void *arg)
     return NULL;
 }
 
-// Embalagem: retira da esteira de embalagem, "embala", e coloca na esteira da caixa
 void *tarefa_embalagem(void *arg)
 {
     LinhaProducao *lp = (LinhaProducao *)arg;
@@ -396,7 +382,6 @@ void *tarefa_embalagem(void *arg)
         Bolacha b = esteira_pop(&lp->e_embalagem);
         log_escrever("INFO", "[EMBALAGEM] Recebeu bolacha #%d (ASSADA) -> embalando...", b.id);
 
-        // simula tempo de embalagem
         sleep(1);
         b.estado = BOLACHA_EMBALADA;
 
@@ -407,7 +392,6 @@ void *tarefa_embalagem(void *arg)
     return NULL;
 }
 
-// Caixa: retira da esteira da caixa e marca como finalizada
 void *tarefa_caixa(void *arg)
 {
     LinhaProducao *lp = (LinhaProducao *)arg;
@@ -430,21 +414,24 @@ void *tarefa_caixa(void *arg)
 
         log_escrever("INFO", "[CAIXA] Bolacha #%d FINALIZADA e colocada na caixa", b.id);
 
-        // tempo de "organizar caixa"
         sleep(1);
     }
 
     return NULL;
 }
 
-// Monitor: verifica horario e estado das esteiras
 void *tarefa_monitor(void *arg)
 {
     LinhaProducao *lp = (LinhaProducao *)arg;
 
     while (1)
     {
-        // 1) Decide se o sistema deve estar rodando com base no horario
+        if (!linha_get_rodando(lp))
+        {
+            usleep(g_config.tempo_verificacao_sensor_ms * 1000);
+            continue;
+        }
+
         time_t t = time(NULL);
         struct tm *lt = localtime(&t);
 
@@ -455,14 +442,12 @@ void *tarefa_monitor(void *arg)
             int minutos_off = g_config.hora_desativacao * 60 + g_config.minuto_desativacao;
 
             bool deveria_rodar = (minutos_atual >= minutos_on && minutos_atual < minutos_off);
-            linha_set_rodando(lp, deveria_rodar);
 
             log_escrever("DEBUG",
-                         "[MONITOR] Hora atual %02d:%02d, deveria_rodar=%d",
+                         "[MONITOR] Hora atual %02d:%02d, janela_ativa=%d",
                          lt->tm_hour, lt->tm_min, deveria_rodar);
         }
 
-        // 2) Le um resumo das esteiras e do estado global
         int c1, c2, c3;
         int criadas, finalizadas;
         bool rodando;
@@ -489,7 +474,6 @@ void *tarefa_monitor(void *arg)
                      "[MONITOR] rodando=%d | forno=%d, embalagem=%d, caixa=%d | criadas=%d, finalizadas=%d",
                      rodando, c1, c2, c3, criadas, finalizadas);
 
-        // 3) espera o tempo configurado
         usleep(g_config.tempo_verificacao_sensor_ms * 1000);
     }
 
